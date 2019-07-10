@@ -35,3 +35,9 @@ copy a file
 ```bash
  cp SOURCE DESTINATION
 ```
+
+remove a file
+
+```bash
+  rm <file>
+```
