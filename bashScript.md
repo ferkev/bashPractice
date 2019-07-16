@@ -3,7 +3,9 @@
 ## variables
 
 ```bash
+
   myvariable = value
+
   echo $mavariable
   #display value
 
