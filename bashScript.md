@@ -17,10 +17,3 @@ display date
 ```bash
   echo $(date +%d/%m/%y-%H:%M:%S)
 ```
-
-functions
-
-
-conditions
-
-
