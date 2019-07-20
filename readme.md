@@ -129,4 +129,7 @@ kill process
 ```bash
   find ./folder -empty
   # find an empty file in a ./[folder] directory
+
+  find ./GFG -name *.txt
+  #It will give all files which have ‘.txt’ at the end
 ```
