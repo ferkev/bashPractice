@@ -56,14 +56,14 @@ remove a file
   #remove file
 ```
 
-command clear 
+command clear
 
 ```bash
   clear
   # to clear terminal
 ```
 
-use echo 
+use echo
 
 ```bash
  echo $PATH
@@ -90,26 +90,43 @@ kill process
 
 ## command chmod
 
-### options
+### chmod options
 
-  -f
-  -v
-  -c
-  -R
-  --help
-  --version
+  *-f
+  *-v
+  *-c
+  *-R
+  *--help
+  *--version
 
 ### permissions
 
-  7 rwx read, write, execute
-  6 rw- read and write
-  5 r-x read and execute
-  4 r-- read only
-  3 -wx write and execute
-  2 -w- write only
-  1 --x execute only
-  0 --- none
+  -7 rwx read, write, execute
+  -6 rw- read and write
+  -5 r-x read and execute
+  -4 r-- read only
+  -3 -wx write and execute
+  -2 -w- write only
+  -1 --x execute only
+  -0 --- none
 
 ```bash
   chmod
+```
+
+## command find
+
+### find options
+
+  *-name
+
+  *-size
+
+  *-print
+
+  *-empty
+
+```bash
+  find ./folder -empty
+  # find an empty file in a ./[folder] directory
 ```
