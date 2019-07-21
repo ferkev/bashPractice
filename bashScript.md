@@ -64,7 +64,6 @@ The double quotes circumvent this part of the process (by making the shell think
 | ?(patternlist)  |  Matches zero or one occurrences of the given patterns. |
 | @(patternlist)  |  Matches exactly one of the given patterns.             |
 | !(patternlist)  |  Matches anything except one of the given patterns.     |
-| --------------- | ------------------------------------------------------- |
 
 ## Arithmetic test operators
 
@@ -74,7 +73,6 @@ The double quotes circumvent this part of the process (by making the shell think
 | -le   | Less than or equal -eq Equal            |
 | -ge   | Greater than or equal -gt Greater than  |
 | -ne   | Not equal                               |
-| ----- | --------------------------------------- |
 
 ## flox control
 
@@ -101,7 +99,6 @@ The double quotes circumvent this part of the process (by making the shell think
 | -N file |   file was modified since it was last read                                                  |
 | -O file |   You own file                                                                              |
 | -G file |   file’s group ID matches yours (or one of yours, if you are in multiple groups)            |
-| ------- | ------------------------------------------------------------------------------------------- |
 
 ## Loops
 
