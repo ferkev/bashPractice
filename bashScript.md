@@ -76,6 +76,8 @@ The double quotes circumvent this part of the process (by making the shell think
 
 ## flox control
 
+### if/else
+
 ```bash
   if [condition]; then
     statements
@@ -84,6 +86,18 @@ The double quotes circumvent this part of the process (by making the shell think
   else
     statements
   fi
+```
+
+### case
+
+```bash
+  case expression in
+    pattern1 )
+      statements ;;
+    pattern2 )
+      statements ;;
+    ...
+  esac
 ```
 
 | Operator|                                       True if...                                            |
@@ -135,18 +149,6 @@ The double quotes circumvent this part of the process (by making the shell think
   until condition; do
     statements
   done  
-```
-
-### case
-
-```bash
-  case expression in
-    pattern1 )
-      statements ;;
-    pattern2 )
-      statements ;;
-    ...
-  esac
 ```
 
 ### select
