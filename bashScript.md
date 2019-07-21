@@ -102,16 +102,69 @@ The double quotes circumvent this part of the process (by making the shell think
 
 ## Loops
 
+### for
+
 ```bash
   for x := 1 to 10 do
   begin
     statements...
   end
+
+  for name [in list]
+  do
+    statements that can use $name...
+  done
+
+  for (( initialisation ; ending condition ; update ))
+  do
+    statements...
+  done
 ```
 
+### while
+
 ```bash
-for name [in list]
-do
-  statements that can use $name...
-done
+  while condition; do
+    statements
+  done
+```
+
+### until
+
+```bash
+  until condition; do
+    statements
+  done  
+```
+
+### case
+
+```bash
+  case expression in
+    pattern1 )
+      statements ;;
+    pattern2 )
+      statements ;;
+    ...
+  esac
+```
+
+### select
+
+```bash
+  select name [in list] do
+    statements that can use $name...
+   done
+```
+
+## Arrays
+
+```bash
+  names[2]=alice
+  names[0]=hatter
+  names[1]=duchess
+
+  names=(hatter duchess alice)
+
+  names=([2]=alice [0]=hatter [1]=duchess)
 ```
