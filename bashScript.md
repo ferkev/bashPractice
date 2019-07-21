@@ -100,6 +100,22 @@ The double quotes circumvent this part of the process (by making the shell think
   esac
 ```
 
+### Operators
+
+```bash
+  statement1 || statement2
+  statement1 && statement2
+```
+
+|   Operator     |                   True if...                 |
+|:--------------:|:--------------------------------------------:|
+|  str1 = str2a  |            str1 matches str2                 |
+| str1 != str2   |            str1 does not match str2          |
+| str1 < str2    |            str1 is less than str2            |
+| str1 > str2    |            str1 is greater than str2         |
+| -n str1        | str1 is not null (has length greater than 0) | 
+| -z str1        |            str1 is null (has length 0)       |
+
 | Operator|                                       True if...                                            |
 | ------- | ------------------------------------------------------------------------------------------- |
 | -a file |   file exists                                                                               |
